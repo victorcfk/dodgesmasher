@@ -1,0 +1,23 @@
+1. 	This project is supposed to be on bitbucket
+
+2. 	Make any util changes here and submit it to bitbucket. You should be pulling from a remote on the web rather than local to get the most up to date changes.
+
+3. 	Eventually you should have a unity project here to edit this helper project with, but you can just use them, modify and copy from any project that uses this util
+
+4. 	In the project that uses this, add the remote to the bitbucket project. 
+	Last known address is "git@bitbucket.org:vchua/unityhelpfulutilities.git"(13/12/2017 Singapore Time)
+	
+5. 	In git bash type the command:
+	"git subtree add --prefix=[relative_path] [remote_name] [branch_name]"
+	
+	Assuming that: 
+	remote_name 		= "HelpfulUtilities_DoNotPush"
+	remote_branch_name 	= "master"
+	local_relative_path = "Assets/HelpfulUtilities/"
+	
+	[For adding]	git subtree add --prefix=Assets/HelpfulUtilities HelpfulUtilities_DoNotPush master --squash
+	[For merging]	git subtree pull --prefix=Assets/HelpfulUtilities HelpfulUtilities_DoNotPush master --squash
+	
+	? git subtree push --prefix=Assets/HelpfulUtilities HelpfulUtilities_DoNotPush master --squash
+	 
+6. You should see the history of the unityhelpfulutilities in the project. --squash can be used to remove that history

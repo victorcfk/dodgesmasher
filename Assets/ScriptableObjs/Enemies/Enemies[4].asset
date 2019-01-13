@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91d1ea212b354f4abe683761115c51d, type: 3}
+  m_Name: Enemies[4]
+  m_EditorClassIdentifier: 
+  BaseDifficulty: 4
+  MinDifficultyToUse: 2
+  MaxDifficultyToUse: 4
+  TopPortionTemplateSets:
+  - _name: '1: EnemyBruteUpgraded Top[2] | '
+    SpawnTransform:
+    - {fileID: 4935122688313166, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1337133713506454, guid: 6192cb863152247448710ef17b7b152d, type: 2}
+  - _name: '1: EnemyBruteUpgraded Top[6] | '
+    SpawnTransform:
+    - {fileID: 4616123796765848, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1337133713506454, guid: 6192cb863152247448710ef17b7b152d, type: 2}
+  - _name: '1: EnemyTurretHomerUpgraded Top[2] | 2: EnemyJerkyShooterUpgraded Top[4]
+      | '
+    SpawnTransform:
+    - {fileID: 4935122688313166, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    - {fileID: 4403862139926296, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1941987834281746, guid: 1ecfdbba4b9aa944f9f73251dc46a5ae, type: 2}
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+  - _name: '1: EnemyTurretHomerUpgraded Top[3] | 2: EnemyTurretShooterUpgraded Top[1]
+      | '
+    SpawnTransform:
+    - {fileID: 4303724455108462, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    - {fileID: 4261534574359188, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1941987834281746, guid: 1ecfdbba4b9aa944f9f73251dc46a5ae, type: 2}
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}
+  - _name: '1: EnemyJerkyShooterUpgraded Top[4] | 2: EnemyJerkyShooterUpgraded Top[7]
+      | '
+    SpawnTransform:
+    - {fileID: 4403862139926296, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    - {fileID: 4307210152003284, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+  - _name: '1: EnemyTurretShooterUpgraded Top[1] | 2: EnemyBouncyUpgraded Top[5] |
+      3: EnemyTurretShooterUpgraded Top[3] | '
+    SpawnTransform:
+    - {fileID: 4261534574359188, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    - {fileID: 4471457183078662, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    - {fileID: 4303724455108462, guid: 2aefccd550b7e7447a1346cb77dd0c9d, type: 2}
+    SpawnPrefab:
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}
+    - {fileID: 1242252546831442, guid: ad7ab81fa8508cf49b2ba5e382a6ac5f, type: 2}
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}
+  BtmPortionTemplateSets:
+  - _name: '1: EnemyBruteUpgraded Btm[2] | '
+    SpawnTransform:
+    - {fileID: 4226738975953080, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1337133713506454, guid: 6192cb863152247448710ef17b7b152d, type: 2}
+  - _name: '1: EnemyBruteUpgraded Btm[7] | '
+    SpawnTransform:
+    - {fileID: 4394766757835182, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1337133713506454, guid: 6192cb863152247448710ef17b7b152d, type: 2}
+  - _name: '1: EnemyTurretHomerUpgraded Btm[2] | 2: EnemyJerkyShooterUpgraded Btm[7]
+      | '
+    SpawnTransform:
+    - {fileID: 4226738975953080, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    - {fileID: 4394766757835182, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1941987834281746, guid: 1ecfdbba4b9aa944f9f73251dc46a5ae, type: 2}
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+  - _name: '1: EnemyTurretHomerUpgraded Btm[1] | 2: EnemyTurretShooterUpgraded Btm[7]
+      | '
+    SpawnTransform:
+    - {fileID: 4448921177315154, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    - {fileID: 4394766757835182, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1941987834281746, guid: 1ecfdbba4b9aa944f9f73251dc46a5ae, type: 2}
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}
+  - _name: '1: EnemyJerkyShooterUpgraded Btm[6] | 2: EnemyJerkyShooterUpgraded Btm[5]
+      | '
+    SpawnTransform:
+    - {fileID: 4160823601770476, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    - {fileID: 4441637656447618, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+    - {fileID: 1976040622363204, guid: 64d7a059d76322046bf3fcee39bc99f6, type: 2}
+  - _name: '1: EnemyTurretShooterUpgraded Btm[1] | 2: EnemyBouncyUpgraded Btm[4] |
+      3: EnemyTurretShooterUpgraded Btm[3] | '
+    SpawnTransform:
+    - {fileID: 4448921177315154, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    - {fileID: 4778628276708864, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    - {fileID: 4304509632452550, guid: 21d49ead4c91a7e4d9ecb8e197584cb8, type: 2}
+    SpawnPrefab:
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}
+    - {fileID: 1242252546831442, guid: ad7ab81fa8508cf49b2ba5e382a6ac5f, type: 2}
+    - {fileID: 1291878554002406, guid: 91ad926744724e843a9fe4da2053d21c, type: 2}

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91d1ea212b354f4abe683761115c51d, type: 3}
+  m_Name: Terrain[2]
+  m_EditorClassIdentifier: 
+  BaseDifficulty: 2
+  MinDifficultyToUse: 0
+  MaxDifficultyToUse: 0
+  TopPortionTemplateSets:
+  - _name: '1: BlockerDiamond Top[5] | 2: BlockerDiamond Top[7] | '
+    SpawnTransform:
+    - {fileID: 4359416406283388, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4189912591248212, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareRotator Top[7] | 2: BlockerSquare Top[3] | 3: BlockerDiamond
+      Top[2] | '
+    SpawnTransform:
+    - {fileID: 4189912591248212, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4472049831467938, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4236124249118390, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareDMG Top[6] | 2: BlockerDiamond Top[3] | 3: BlockerDiamond
+      Top[4] | '
+    SpawnTransform:
+    - {fileID: 4821708977801644, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4472049831467938, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4521659258718870, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: fdac0af00a278644fb86fc2a1eb74558, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareDMG Top[6] | 2: BlockerDiamond Top[3] | 3: BlockerDiamond
+      Top[4] | '
+    SpawnTransform:
+    - {fileID: 4821708977801644, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4472049831467938, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4521659258718870, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: fdac0af00a278644fb86fc2a1eb74558, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareRotator Top[1] | 2: BlockerDiamond Top[5] | 3: BlockerDiamond
+      Top[4] | '
+    SpawnTransform:
+    - {fileID: 4522468164326852, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4359416406283388, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4521659258718870, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerDiamond Top[3] | 2: BlockerDiamond Top[4] | 3: BlockerSquareRotator
+      Top[7] | 4: BlockerSquareRotator Top[5] | '
+    SpawnTransform:
+    - {fileID: 4472049831467938, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4521659258718870, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4189912591248212, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4359416406283388, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+  - _name: '1: BlockerSquare Top[3] | 2: BlockerDiamond Top[7] | 3: BlockerSquareDMG
+      Top[4] | 4: BlockerSquare Top[6] | '
+    SpawnTransform:
+    - {fileID: 4472049831467938, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4189912591248212, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4521659258718870, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    - {fileID: 4821708977801644, guid: 11f08179f21979e458738fcedcce1a09, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: fdac0af00a278644fb86fc2a1eb74558, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+  BtmPortionTemplateSets:
+  - _name: '1: BlockerSquare Btm[5] | 2: BlockerSquare Btm[7] | '
+    SpawnTransform:
+    - {fileID: 4231285911850246, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4226991058153906, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+  - _name: '1: BlockerDiamond Btm[5] | 2: BlockerDiamond Btm[7] | '
+    SpawnTransform:
+    - {fileID: 4231285911850246, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4226991058153906, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareDMG Btm[6] | 2: BlockerSquare Btm[4] | 3: BlockerSquare
+      Btm[3] | '
+    SpawnTransform:
+    - {fileID: 4749846727467360, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4283791459744286, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4839414482960150, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1687639542899238, guid: fdac0af00a278644fb86fc2a1eb74558, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+  - _name: '1: BlockerSquareRotator Btm[3] | 2: BlockerDiamond Btm[6] | 3: BlockerDiamond
+      Btm[7] | '
+    SpawnTransform:
+    - {fileID: 4839414482960150, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4749846727467360, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4226991058153906, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareRotator Btm[5] | 2: BlockerSquareRotator Btm[7] | 3: BlockerDiamond
+      Btm[3] | 4: BlockerDiamond Btm[4] | '
+    SpawnTransform:
+    - {fileID: 4231285911850246, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4226991058153906, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4839414482960150, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4283791459744286, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareRotator Btm[6] | 2: BlockerSquare Btm[4] | 3: BlockerDiamond
+      Btm[3] | '
+    SpawnTransform:
+    - {fileID: 4749846727467360, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4283791459744286, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4839414482960150, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1687639542899238, guid: 450fa9818325e174ca00afa2ca8fcb29, type: 2}
+  - _name: '1: BlockerSquareRotator Btm[5] | 2: BlockerSquare Btm[1] | 3: BlockerSquareRotator
+      Btm[2] | 4: BlockerSquare Btm[8] | '
+    SpawnTransform:
+    - {fileID: 4231285911850246, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4195822800873676, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4511358347717886, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    - {fileID: 4422718640373478, guid: 316dc617b27dc6e439652b3977f7e5af, type: 2}
+    SpawnPrefab:
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}
+    - {fileID: 1389919010107790, guid: 34aa90cc16355294e930c68ef98b7bbb, type: 2}
+    - {fileID: 1389919010107790, guid: 4315b6377f78ad148b474c94d6091290, type: 2}

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9ed95e5a5f5d14545b39532d52195df6, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f7d7b75669dc38642b87733749ef0be0, type: 3}
+  - {fileID: 21300000, guid: eb489cc579ac5ac489c6e79559939f15, type: 3}
+  - {fileID: 21300000, guid: 25b05615d1b7a0146852846dfb760a6f, type: 3}
+  - {fileID: 21300000, guid: 166996ad4a1be264eb2bbfc3b6861ee2, type: 3}
+  - {fileID: 21300000, guid: cdd84a554213e4d4b9b12f5cf2bb4673, type: 3}
+  - {fileID: 21300000, guid: 8f9b14630e23e6b459e6d792d9f28848, type: 3}
+  - {fileID: 21300000, guid: b731851088780fd4e94faf09cd12b79a, type: 3}
+  - {fileID: 21300000, guid: 4c1bb7288d5411645baaf80f407b6266, type: 3}
+  - {fileID: 21300000, guid: 8e6124bad09d6e94f8baa77350562783, type: 3}
+  - {fileID: 21300000, guid: ac932b00c7c2c5b42b1ced352c10490e, type: 3}
+  - {fileID: 21300000, guid: 0f13de0736ae41d46a74197292c87397, type: 3}
+  - {fileID: 21300000, guid: 3468f430fb6b44742937184d41abe704, type: 3}
+  - {fileID: 21300000, guid: d2c42f60923aab047804edd542206236, type: 3}
+  - {fileID: 21300000, guid: 946a30439ac4c604fbd9fc013c855dad, type: 3}
+  - {fileID: 21300000, guid: a7bfddc3d6dee5649a656d31e75e0db9, type: 3}
+  - {fileID: 21300000, guid: 28c1632ac66e6794ab5d3d7dd2491f95, type: 3}
+  - {fileID: 21300000, guid: 30ac0aaff28460d4e9d041f4ddf52a83, type: 3}
+  - {fileID: 21300000, guid: 507c2d884671666469513b04466bdbdb, type: 3}
+  - {fileID: 21300000, guid: c58cb80b4949e684babef21a49b68784, type: 3}
+  - {fileID: 21300000, guid: 91fc9bac962fc884eaa3b332c93795cb, type: 3}
+  - {fileID: 21300000, guid: 6d14b1d6efff2964f8a8b54894ace68f, type: 3}
+  - {fileID: 21300000, guid: 54c5d758bfe70304c90e3fe00cd4c968, type: 3}
+  - {fileID: 21300000, guid: 21860c087bcf6354f923a622d10d8b63, type: 3}
+  - {fileID: 21300000, guid: fd3583d88b16f9a42a09c6c1f24bdeca, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_Tab
+  - HP_Fill
+  - HP_Empty
+  - UI_Button_Border
+  - UI_Button
+  - UI_Button_002
+  - Upgrade_Grid_UI
+  - StaminaFull
+  - StaminaEmpty
+  - CorridorFilled
+  - Toast
+  - Resume
+  - Corridor
+  - SkillUp_Button_UI
+  - Pause
+  - SkillUp_Blip_Big_UI
+  - musicOn
+  - audioOn
+  - musicOff
+  - audioOff
+  - SkillUp_Blip_Small_UI
+  - leaderboardsComplex
+  - trophy
+  - DottedLine
+  m_Tag: UI
+  m_IsVariant: 0
