@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Gameplay
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -19,7 +21,19 @@ SpriteAtlas:
       crunchedCompression: 1
       sRGB: 0
     platformSettings:
-    - m_BuildTarget: Android
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
       m_TextureFormat: 47
@@ -29,7 +43,7 @@ SpriteAtlas:
       m_AllowsAlphaSplitting: 0
       m_Overridden: 1
       m_AndroidETC2FallbackOverride: 0
-    packingParameters:
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
@@ -42,57 +56,58 @@ SpriteAtlas:
     - {fileID: 102900000, guid: 69cb6c95c0919c44a9e00f5870c0ab87, type: 3}
     - {fileID: 102900000, guid: 2c637d4eeeb41d048b8490b2a8cae41f, type: 3}
     - {fileID: 2800000, guid: 8af6fd22bebbdea4f83d3f105e9c6b06, type: 3}
+    totalSpriteSurfaceArea: 3890009
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 841066771f8c8e74aa0c201741ab4c42, type: 3}
-  - {fileID: 21300000, guid: b9c0d8cb37df98245b92c8cba8ba0e10, type: 3}
-  - {fileID: 21300000, guid: 2814f787416f33246888dea22e28a6eb, type: 3}
-  - {fileID: 21300000, guid: 70b0705115c0a6844b9e549e5c3046db, type: 3}
-  - {fileID: 21300000, guid: a1ac4fc99fd398343907c0b86c265a0a, type: 3}
-  - {fileID: 21300000, guid: a89c8bc1871121142a9f56960b133f91, type: 3}
-  - {fileID: 21300000, guid: b42bbefea27e87a43804f936dba6cd04, type: 3}
-  - {fileID: 21300000, guid: 8af6fd22bebbdea4f83d3f105e9c6b06, type: 3}
-  - {fileID: 21300000, guid: 5c204a47682b2e74ca191013ccd9b8b4, type: 3}
-  - {fileID: 21300000, guid: 0640448f24b23d0449d205d15a0609c5, type: 3}
-  - {fileID: 21300000, guid: ac6a829a9ecc1cd48b6d6ffabd6e1289, type: 3}
-  - {fileID: 21300000, guid: 5bb9449805757cc41871e2fd7c6391d6, type: 3}
-  - {fileID: 21300000, guid: 90067e4253f246441a5c89a607e8261b, type: 3}
-  - {fileID: 21300000, guid: 2a4703778d77e9c49974df96dca60219, type: 3}
-  - {fileID: 21300000, guid: 520aa768df09958448216e80561a953a, type: 3}
-  - {fileID: 21300000, guid: c6fb49b7e34c8b7428147cbb9a7503b6, type: 3}
-  - {fileID: 21300000, guid: 33ecacb2ab3d00649a0b20df470581c7, type: 3}
-  - {fileID: 21300000, guid: 5ef580960282eee4093369074a7ed9e2, type: 3}
-  - {fileID: 21300000, guid: 5249d28157e1b224a872afc431ec29b0, type: 3}
-  - {fileID: 21300000, guid: 2b7aec56644d72745870ca20dde265a9, type: 3}
   - {fileID: 21300000, guid: 80e362609a243934683657c3a26d5a95, type: 3}
-  - {fileID: 21300000, guid: 58bf0e7a104bbdd4c92b10347f13b077, type: 3}
+  - {fileID: 21300000, guid: 70b0705115c0a6844b9e549e5c3046db, type: 3}
+  - {fileID: 21300000, guid: 5249d28157e1b224a872afc431ec29b0, type: 3}
+  - {fileID: 21300000, guid: a89c8bc1871121142a9f56960b133f91, type: 3}
+  - {fileID: 21300000, guid: 8af6fd22bebbdea4f83d3f105e9c6b06, type: 3}
+  - {fileID: 21300000, guid: 90067e4253f246441a5c89a607e8261b, type: 3}
+  - {fileID: 21300000, guid: 33ecacb2ab3d00649a0b20df470581c7, type: 3}
   - {fileID: 21300000, guid: 9087905668dee8d449d036b55184fddc, type: 3}
+  - {fileID: 21300000, guid: 2b7aec56644d72745870ca20dde265a9, type: 3}
+  - {fileID: 21300000, guid: 5ef580960282eee4093369074a7ed9e2, type: 3}
+  - {fileID: 21300000, guid: 5c204a47682b2e74ca191013ccd9b8b4, type: 3}
+  - {fileID: 21300000, guid: 2a4703778d77e9c49974df96dca60219, type: 3}
+  - {fileID: 21300000, guid: 841066771f8c8e74aa0c201741ab4c42, type: 3}
+  - {fileID: 21300000, guid: 2814f787416f33246888dea22e28a6eb, type: 3}
+  - {fileID: 21300000, guid: c6fb49b7e34c8b7428147cbb9a7503b6, type: 3}
   - {fileID: 21300000, guid: a67b75585ff6ec546803718f385b9984, type: 3}
+  - {fileID: 21300000, guid: 520aa768df09958448216e80561a953a, type: 3}
+  - {fileID: 21300000, guid: 5bb9449805757cc41871e2fd7c6391d6, type: 3}
+  - {fileID: 21300000, guid: a1ac4fc99fd398343907c0b86c265a0a, type: 3}
+  - {fileID: 21300000, guid: 58bf0e7a104bbdd4c92b10347f13b077, type: 3}
+  - {fileID: 21300000, guid: ac6a829a9ecc1cd48b6d6ffabd6e1289, type: 3}
+  - {fileID: 21300000, guid: b9c0d8cb37df98245b92c8cba8ba0e10, type: 3}
+  - {fileID: 21300000, guid: b42bbefea27e87a43804f936dba6cd04, type: 3}
+  - {fileID: 21300000, guid: 0640448f24b23d0449d205d15a0609c5, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Bullet_002
-  - Bullet_003
-  - Bullet_001
-  - Obstacle_Cube_mask
-  - Base_CircleHalf
-  - EnemyBase_Square
-  - Obstacle_Cube
-  - Player
-  - Bouncy
-  - PreFire
-  - EnemyBase_Circle
-  - Turret
-  - Homer
-  - Chaser_Lv2
-  - Chaser
-  - Brute_Cannons
-  - BoxBody
-  - Brute_Lightning_004
-  - Brute_Lightning_003
-  - Brute_Saw_002
   - Brute_Saw_001
-  - Brute_Lightning_002
+  - Obstacle_Cube_mask
+  - Brute_Lightning_003
+  - EnemyBase_Square
+  - Player
+  - Homer
+  - BoxBody
   - Brute_Lightning_001
+  - Brute_Saw_002
+  - Brute_Lightning_004
+  - Bouncy
+  - Chaser_Lv2
+  - Bullet_002
+  - Bullet_001
+  - Brute_Cannons
   - Triangle
+  - Chaser
+  - Turret
+  - Base_CircleHalf
+  - Brute_Lightning_002
+  - EnemyBase_Circle
+  - Bullet_003
+  - Obstacle_Cube
+  - PreFire
   m_Tag: Gameplay
   m_IsVariant: 0
